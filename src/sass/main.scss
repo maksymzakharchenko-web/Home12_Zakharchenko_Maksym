@@ -1,0 +1,15 @@
+@import 'utils/variables';
+
+@import "bootstrap";
+
+@import 'base/basic';
+
+@import 'layout/header';
+@import "layout/top-wrapper";
+@import 'layout/grid';
+@import "layout/template-authors";
+@import 'layout/footer';
+
+@import "components/pricing-card";
+@import "components/button";
+@import "components/slider";

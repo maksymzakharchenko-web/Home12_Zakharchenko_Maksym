@@ -1,0 +1,53 @@
+.nav-bar-decoration {
+  margin-bottom: 220px;
+  @media (max-width: 1440px) {
+    margin-bottom: 140px;
+  }
+  @media (max-width: 768px) {
+    margin-bottom: 70px;
+  }
+}
+
+.nav-font {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logo {
+  @media (max-width: 768px) {
+    padding-left: 40px;
+  }
+}
+
+.main-menu-decoration {
+  list-style: none;
+  @media (max-width: 768px) {
+    display: none;
+  }
+  a {
+    color: #ffffff;
+    &:hover {
+      color: $main-color;
+    }
+  }
+  &:after {
+    content: "\026B2";
+    cursor: pointer;
+    font-size: 20px;
+    transform: rotate(-45deg);
+    color: white;
+    margin-left: 10px;
+  }
+}
+
+.burger-menu {
+  display: none;
+  @media (max-width: 768px) {
+    display: block;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    padding-right: 40px;
+  }
+}

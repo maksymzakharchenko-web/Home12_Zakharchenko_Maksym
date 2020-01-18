@@ -1,0 +1,26 @@
+.template-authors {
+  background: url("../img/template-authors.jpg") no-repeat center;
+  background-size: cover;
+  h3 {
+    color: #ffffff;
+    font-size: 30px;
+    @media (max-width: 550px) {
+      font-size: 24px;
+    }
+    span {
+      font-weight: bold;
+    }
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    background-color: $btn-bg;
+    color: #ffffff;
+    border: none;
+    &:hover {
+      background: none;
+      color: #ffffff;
+      border: 2px solid $btn-bg;
+    }
+  }
+}
